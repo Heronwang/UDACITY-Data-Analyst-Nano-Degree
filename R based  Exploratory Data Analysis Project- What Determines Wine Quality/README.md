@@ -17,8 +17,6 @@ More specificly, they are:  
 
 Skills | Tasks
 --- | ---
-EDA | Define and identify the importance of exploratory data analysis (EDA)
-R |Install RStudio and packages; Write R scripts to inspect datasets
 EXPLORE ONE VARIABLE | Quantify and visualize individual variables within a dataset;Create histograms and boxplots; ransform variables; Examine and identify tradeoffs in visualizations
 EXPLORE TWO VARIABLES | Properly apply relevant techniques for exploring the relationship between any two variables in a data set; Create scatter plots; Calculate correlations; Investigate conditional means
 EXPLORE MANY VARIABLES | Reshape data frames and use aesthetics like color and shape to uncover information
