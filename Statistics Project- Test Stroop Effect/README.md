@@ -6,7 +6,7 @@ If you are interested in it, please find **`Statistics Project-Test Stroop Effec
 ## Skills Used   
  Skills | Tasks
  --- | ---
-RESEARCH METHODS|Identify several statistical study methods and describe the positives and negatives of each
+RESEARCH METHODS| Find the most suitable statistic test among the many candidates
 VISUALIZING DATA|Create and interpret histograms, bar charts, and frequency plots
 CENTRAL TENDENCY|Compute and interpret the 3 measures of center for distributions: the mean, median, and mode
  VARIABILITY|Quantify the spread of data using the range and standard deviation; Identify outliers in data sets using the interquartile range
