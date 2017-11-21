@@ -8,17 +8,17 @@ Data, by itself, is "ubiquitous and cheap," says Google's Chief Economist and UC
 If you are interested in it, please check **`P4_White_Wines_Quality_Exploration.rmd` and `html`** for code and detailed documentation!
 
 ## Skills Used
-- Understand the distribution of a variable and to check for anomalies and outliers
-- Quantify and visualize individual variables within a data set by using appropriate plots such as scatter plots, histograms, bar charts, and box plots
+- Check for anomalies and outliers from the distribution of a variable
+- Quantify and visualize individual variables within a data set by using appropriate plots
 - Explore variables to identify the most important variables and relationships within a data set before building predictive models; calculate correlations, and investigate conditional means
-- Learn powerful methods and visualizations for examining relationships among multiple variables, such as reshaping data frames and using aesthetics like color and shape to uncover more information
+- Apply powerful methods and visualizations for examining relationships among multiple variables, such as reshaping data frames and using aesthetics like color and shape to uncover more information
 
 More specificly, they are:   
 
 Skills | Tasks
 --- | ---
-EXPLORE ONE VARIABLE | Quantify and visualize individual variables within a dataset;Create histograms and boxplots; ransform variables; Examine and identify tradeoffs in visualizations
-EXPLORE TWO VARIABLES | Properly apply relevant techniques for exploring the relationship between any two variables in a data set; Create scatter plots; Calculate correlations; Investigate conditional means
+EXPLORE ONE VARIABLE | Quantify and visualize individual variables within a dataset;Create histograms and boxplots; Transform variables; Examine and identify tradeoffs in visualizations
+EXPLORE TWO VARIABLES | Apply relevant techniques for exploring the relationship between any two variables in a data set; Create scatter plots; Calculate correlations; Investigate conditional means
 EXPLORE MANY VARIABLES | Reshape data frames and use aesthetics like color and shape to uncover information
 WINE QUALITY PREDICTIONS | Use predictive modeling to determine wine quality
 
