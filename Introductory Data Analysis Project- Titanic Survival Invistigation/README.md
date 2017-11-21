@@ -1,6 +1,8 @@
 
 ## Project Overview 
-In this project, I choosed the curated titanic datasets and investigated it using NumPy and pandas. I went through the entire data analysis process, starting by posin questions and finishing by sharing my findings.
+In this project, I choosed the curated titanic datasets and investigated it using NumPy and pandas. I went through the entire data analysis process, starting by posin questions and finishing by sharing my findings.  
+If you are interested, please check **`P2_Titanic_survival_Analysis.ipynb` or `html`** for detailed documentation! 
+
 
 ## Skills Used
 Skills | Tasks
