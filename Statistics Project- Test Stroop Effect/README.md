@@ -18,5 +18,6 @@ HYPOTHESIS TESTING|Use critical values to make decisions on whether or not a tre
 T-TESTS|Test the effect of a treatment or compare the difference in means for two groups when we have small sample sizes
 
 ## References
-An [online histogram maker](http://www.socscistatistics.com/descriptive/polygon/Default.aspx) for visualizationI 
+An [online histogram maker](http://www.socscistatistics.com/descriptive/polygon/Default.aspx) for visualizationI   
+
 An [online histogram maker](http://www.shodor.org/interactivate/activities/Histogram/) for viusalization II
