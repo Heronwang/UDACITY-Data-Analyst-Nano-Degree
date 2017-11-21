@@ -5,37 +5,33 @@ In 2000, Enron was one of the largest companies in the United States. By 2002, i
 In this project, you’ll play detective and put your machine learning skills to use by building an algorithm to identify Enron employees who may have committed fraud based on the public Enron financial and email dataset.
 
 
+## Skills Used
+- Deal with an imperfect, real-world dataset
+- Validate a machine learning result using test data
+- Evaluate a machine learning result using quantitative metrics
+- Create, select and transform features
+- Compare the performance of machine learning algorithms
+- Tune machine learning algorithms for maximum performance
+- Communicate your machine learning algorithm results clearly
 
-By the end of the project, you will be able to:
+More specificly, they are :
 
-Deal with an imperfect, real-world dataset
-Validate a machine learning result using test data
-Evaluate a machine learning result using quantitative metrics
-Create, select and transform features
-Compare the performance of machine learning algorithms
-Tune machine learning algorithms for maximum performance
-Communicate your machine learning algorithm results clearly
-SUPERVISED CLASSIFICATION
-➔ Implement the Naive Bayes algorithm to classify text
-➔ Implement Support Vector Machines (SVMs) to generate new
-features independently on the fly
-➔ Implement decision trees as a launching point for more
-sophisticated methods like random forests and boosting
-DATASETS AND QUESTIONS
-➔ Wrestle the Enron dataset into a machine-learning-ready format in preparation for detecting cases of fraud
-REGRESSIONS AND OUTLIERS
-➔ Use regression algorithms to make predictions and identify and clean outliers from a dataset
-UNSUPERVISED LEARNING
-➔ Use the k-means clustering algorithm for pattern-searching on unlabeled data
-FEATURES, FEATURES, FEATURES
-➔ Use feature creation to take your human intuition and change raw features into data a computer can use
-➔ Use feature selection to identify the most important features of your data
-➔ Implement principal component analysis (PCA) for a more sophisticated take on feature selection
-➔ Use tools for parsing information from text-type data
-VALIDATION AND EVALUATION
-➔ Implement the train-test split and cross-validation to validate and understand machine learning results
-➔ Quantify machine learning results using precision, recall, and F1 score
+Skills | Tasks
+--- | ---
+SUPERVISED CLASSIFICATION |Implement the Naive Bayes algorithm to classify text;Implement Support Vector Machines (SVMs) to generate new features independently on the fly;Implement decision trees as a launching point for more sophisticated methods like random forests and boosting
+DATASETS AND QUESTIONS |Wrestle the Enron dataset into a machine-learning-ready format in preparation for detecting cases of fraud
+REGRESSIONS AND OUTLIERS |Use regression algorithms to make predictions and identify and clean outliers from a dataset
+UNSUPERVISED LEARNING |Use the k-means clustering algorithm for pattern-searching on unlabeled data
+FEATURES, FEATURES, FEATURES |Use feature creation to take your human intuition and change raw features into data a computer can use;Use feature selection to identify the most important features of your data;Implement principal component analysis (PCA) for a more sophisticated take on feature selection;Use tools for parsing information from text-type data
+VALIDATION AND EVALUATION |Implement the train-test split and cross-validation to validate and understand machine learning results;Quantify machine learning results using precision, recall, and F1 score
 
+## Software and Libraries
+- python2.7
+- sklearn
+- numpy
+- pandas
+
+## References
 https://en.wikipedia.org/wiki/Enron_scandal
 https://en.wikipedia.org/wiki/Enron_Corpus
 http://www.nytimes.com/2006/05/25/business/25cnd-enron.html
