@@ -1,0 +1,11 @@
+1. Map Area 
+For this case study, I picked Sinagapore. First of all I live here for 2 years so I think of it immediately. Besides, even it is a tiny city country ( actually its nickname is 'little red dot') , I am overwhelmed by its complicated city planning and full-scale facilities. I am excited to check out the awaiting suprising facts hidden in this OpenStreetMap data! 
+ 
+NS£¨1.823,0.807£©,EW(103.062,104.545) 
+https://s3.amazonaws.com/metro-extracts.mapzen.com/singapore.osm.bz2 
+
+2. Sample Area
+For sampling, I picked NUS campus area (National University of Singapore). Since I am very familiar with it. 
+
+NS£¨1.3094,1.2889£©,EW(103.7702,103.7849) 
+https://www.openstreetmap.org/exPort#map=15/1.2991/103.7775&layers=HN 
