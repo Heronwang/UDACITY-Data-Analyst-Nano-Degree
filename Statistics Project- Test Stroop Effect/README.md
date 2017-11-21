@@ -3,7 +3,7 @@ In this project, I used descriptive statistics and a statistical test to analyze
 
 ## Skills Used   
 
- SKllis | Tasks
+ Skills | Tasks
  --- | ---
 RESEARCH METHODS|Identify several statistical study methods and describe the positives and negatives of each
 VISUALIZING DATA|Create and interpret histograms, bar charts, and frequency plots
