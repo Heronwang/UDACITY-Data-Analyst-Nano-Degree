@@ -29,26 +29,11 @@ VALIDATION AND EVALUATION |Implement the train-test split and cross-validation t
 - pandas
 
 ## References
-https://en.wikipedia.org/wiki/Enron_scandal
-https://en.wikipedia.org/wiki/Enron_Corpus
-http://www.nytimes.com/2006/05/25/business/25cnd-enron.html
-http://stackoverflow.com/questions/20428636/python-convert-defaultdict-to-dict
-http://stackoverflow.com/questions/20428636/python-convert-defaultdict-to-dict
-http://stackoverflow.com/questions/8450472/how-to-format-print-output-into-fixed-width
-http://stackoverflow.com/questions/14133348/show-feature-names-after-feature-selection
-http://stackoverflow.com/questions/3121979/how-to-sort-list-tuple-of-lists-tuples
-http://stackoverflow.com/questions/13331698/how-to-apply-a-function-to-two-columns-of-pandas-dataframe
-http://stackoverflow.com/questions/30918781/right-function-for-normalizing-input-of-sklearn-svm
-http://stackoverflow.com/questions/21887754/numpy-concatenate-two-arrays-vertically
-http://stackoverflow.com/questions/26225344/why-feature-scaling
-http://stackoverflow.com/questions/13575090/construct-pandas-dataframe-from-items-in-nested-dictionary
+- [Enron Scandal](https://en.wikipedia.org/wiki/Enron_scandal)
+- [Enron Corpus](https://en.wikipedia.org/wiki/Enron_Corpus)
+- [Report on Enron Scandal](http://www.nytimes.com/2006/05/25/business/25cnd-enron.html)
+- [Why is feature scaling useful?](http://stackoverflow.com/questions/26225344/why-feature-scaling)
 
-
-
-## P5 Enron Fraud Identification  
-
-For better communication on logic flow, I create this RMD, and arrange it into 6 parts corresponding to the 6 questions asked.  
-  
   
 ### 1.Project Overview and Preliminary Data Exploration 
 >*Summarize for us the goal of this project and how machine learning is useful in trying to accomplish it. As part of your answer, give some background on the dataset and how it can be used to answer the project question. Were there any outliers in the data when you got it, and how did you handle those?*  
