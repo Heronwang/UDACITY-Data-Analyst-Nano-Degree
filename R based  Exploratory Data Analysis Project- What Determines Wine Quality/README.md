@@ -13,7 +13,8 @@ If you are interested, please check **`P4_White_Wines_Quality_Exploration.rmd` a
 - Explore variables to identify the most important variables and relationships within a data set before building predictive models; calculate correlations, and investigate conditional means
 - Learn powerful methods and visualizations for examining relationships among multiple variables, such as reshaping data frames and using aesthetics like color and shape to uncover more information
 
-More specificly, they are: 
+More specificly, they are:   
+
 Skills | Tasks
 --- | ---
 EDA | Define and identify the importance of exploratory data analysis (EDA)
