@@ -2,6 +2,8 @@
 A/B tests are how data analysts determine whether one change causes another. Looking at historical data can only show that two changes are correlated. Correctly setting up and interperting A/B tests is a key skill for data analysts.
 For this project, I considered an actual experiment that was run by Udacity. I fleshed the experiment idea out into a fully defined design,including which metrics to measure and how long the test should be run, analyzed the results, and proposed a high-level follow-on experiment.
 
+If you are interested, please find **`P7_Design AB Test for Whether to Launch Udacity Free Trial Screener.pdf`** for detailed documentation!
+
 ## Skills Used
 - Select metrics to evaluate a proposed change
 - Characterize and validate those metrics
@@ -10,6 +12,7 @@ For this project, I considered an actual experiment that was run by Udacity. I f
 - Draw a conclusion based on the results and recommend whether or not to launch the change
 
 More specificly, they are: 
+
 Skills | Tasks
 --- |---
 OVERVIEW OF A/B TESTING|Identify the key concepts and considerations when designing and conducting an A/B test
@@ -19,8 +22,11 @@ DESIGNING AN EXPERIMENT|Identify the proper users to be in control and experimen
 ANALYZING RESULTS | Identify the key steps for analyzing the results of an experiment; Measure multiple metrics within a single experiment; Understand why statistically significant results may disappear at launch
 
 ## Rescources
-Udacity Forum Discussion
-Online lecture notes: http://napitupulu-jon.appspot.com/categories/ab-testing.html
-http://www.evanmiller.org/ab-testing/sample-size.html
+Udacity Forum Discussion  
+
+Online lecture notes: http://napitupulu-jon.appspot.com/categories/ab-testing.html  
+
+http://www.evanmiller.org/ab-testing/sample-size.html  
+
 https://en.wikipedia.org/wiki/Bonferroni_correction
 
