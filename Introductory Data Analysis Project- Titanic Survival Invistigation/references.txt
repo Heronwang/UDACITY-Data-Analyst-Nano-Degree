@@ -1,0 +1,6 @@
+1.usage_plot.py
+(This is the code given to use in P0, which I found useful here so I use it as reference.)
+2.Titanic Facts(related report)
+http://www.titanicfacts.net/
+3.The sinking of Titanic(eye witness)
+http://www.eyewitnesstohistory.com/titanic.htm
