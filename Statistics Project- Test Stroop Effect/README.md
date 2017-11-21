@@ -1,8 +1,8 @@
 ## Statistics Project: Test Stroop Effect
-In this project, I used descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology. With understanding of the data, I used statistical inference to draw a conclusion based on the results.
+In this project, I investigated a classic phenomenon from experimental psychology called the Stroop Effect. (In psychology, the Stroop effect is a demonstration of interference in the reaction time of a task.) I first learned about about the idea of the experiment and creating a hypothesis regarding the outcome of the task.Then I looked at data collected from others who have performed the task and I computed the key statistics describing the results. Finally, I was able to interpret my results in terms of the hypotheses.
+
 
 ## Skills Used   
-
  Skills | Tasks
  --- | ---
 RESEARCH METHODS|Identify several statistical study methods and describe the positives and negatives of each
