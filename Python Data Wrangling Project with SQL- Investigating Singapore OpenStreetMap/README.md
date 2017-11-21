@@ -1,17 +1,11 @@
 ## Python Data Wrangling Project with SQL- Investigating Singapore OpenStreetMap
-Data munging skills are some of the most important for career of data engineer as data engineer will always need to wrangle data before we can do any analysis. In this project, you’ll use data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data for a part of the world that you care about.
+Data munging skills are some of the most important for career of data engineers, as data engineers always need to wrangle data before using them for any analysis. For this project, I choosed `Singapore` map from https://www.openstreetmap.org as the case of study, as I am very interested to see the unseen part of the little red doton pacific ocean that I am both familiar with and alien to, by the data mining skills I have learned. This is quite a time-consuming and exhausting project, but I learned a lot useful handy data munging techniques from it, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data. Finally, I used SQL as the data schema to wrap up the data investigation part.
 
-You will choose any area of the world in https://www.openstreetmap.org and use data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data for a part of the world that you care about. Finally, you will choose either MongoDB or SQL as the data schema to complete your project.
 
-What will I learn?
-After completing the project, you will be able to:
-
-Assess the quality of the data for validity, accuracy, completeness, consistency and uniformity.
-Parse and gather data from popular file formats such as .csv, .json, .xml, and .html
-Process data from multiple files or very large files that can be cleaned programmatically.
-Learn how to store, query, and aggregate data using MongoDB or SQL.
-The skills in this project are some of the most important for your career. Any data analyst will need to wrangle data before they can do any analysis. At Udacity, how would we know when students submit projects unless we made sure to report the timestamp? How would we be able to compare that to when students finish watching videos unless we built data pipelines to get all of this information in one place? Data analysts help with collecting and cleaning the data, or what is often called "data wrangling."
-
+## Skills Used
+- Parse and gather data from popular file formats such as .csv, .json, .xml, and .html
+- Process data from multiple files or very large files that can be cleaned programmatically.
+- Store, query, and aggregate data using SQL.
 DATA EXTRACTION FUNDAMENTALS
 ➔ Properly assess the quality of a dataset
 ➔ Understand how to parse CSV files and XLS with XLRD ➔ Use JSON and Web APIs
