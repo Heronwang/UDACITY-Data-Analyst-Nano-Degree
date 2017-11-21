@@ -14,9 +14,11 @@ If you are interested, please check **`P4_White_Wines_Quality_Exploration.rmd` a
 - Learn powerful methods and visualizations for examining relationships among multiple variables, such as reshaping data frames and using aesthetics like color and shape to uncover more information
 
 More specificly, they are: 
+Skills | Tasks
+--- | ---
 EDA | Define and identify the importance of exploratory data analysis (EDA)
 R |Install RStudio and packages; Write R scripts to inspect datasets
-EXPLORE ONE VARIABLE | Quantify and visualize individual variables within a dataset ➔ Create histograms and boxplots; ransform variables; Examine and identify tradeoffs in visualizations
+EXPLORE ONE VARIABLE | Quantify and visualize individual variables within a dataset;Create histograms and boxplots; ransform variables; Examine and identify tradeoffs in visualizations
 EXPLORE TWO VARIABLES | Properly apply relevant techniques for exploring the relationship between any two variables in a data set; Create scatter plots; Calculate correlations; Investigate conditional means
 EXPLORE MANY VARIABLES | Reshape data frames and use aesthetics like color and shape to uncover information
 WINE QUALITY PREDICTIONS | Use predictive modeling to determine wine quality
