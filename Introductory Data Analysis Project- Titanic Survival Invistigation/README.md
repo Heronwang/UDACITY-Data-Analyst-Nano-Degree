@@ -17,9 +17,7 @@ NUMPY AND PANDAS FOR 2D DATA | Use two-dimensional NumPy arrays and pandas DataF
 - csv
 
 
-# Titanic Survival Analysis
-
-**Intro**:
+# Introduction
 As the movie Titanic one of my favorites, I was attracted by this topic immediately when I saw it. While the movie itself is touching and romantic, the actualy historic event was an astounding tradegy. Ironically against the claim as a safest ship ever, the Titanic carried only 20 boats in contrast with the supposed 64, and the lack of emergency training made the situation even worse. In the end, only one third of 2,200 passengers and crew were saved and survived from its sinking. 
 > **Questions**:
 Looking through the records, a very interesting question to ask is during the last critical 160 minutes,  what composed the final answer of the Titanic people, to the choice question of life and death. In the movie, women ,children and pasengers were given the priority of the 20 life-saving boats, survived at the great sacrifice of brave men, parents and crews. With the dataset at hand and many reports as references, **we will start with the most likely factors such as gender,status and age**, and try to re-establish the Titanic story from another perspective, by numbers and statistics, and decompose the most difficult choice.
