@@ -1,7 +1,7 @@
 ## Statistics Project: Test Stroop Effect
 In this project, I investigated a classic phenomenon from experimental psychology called the Stroop Effect. (In psychology, the Stroop effect is a demonstration of interference in the reaction time of a task.) I first learned about about the idea of the experiment and creating a hypothesis regarding the outcome of the task.Then I looked at data collected from others who have performed the task and I computed the key statistics describing the results. Finally, I was able to interpret my results in terms of the hypotheses.   
 
-If you are interested, please find **`Statistics Project-Test Stroop Effect.pdf`** for more detailed documentation!
+If you are interested in it, please find **`Statistics Project-Test Stroop Effect.pdf`** for more detailed documentation!
 
 ## Skills Used   
  Skills | Tasks
