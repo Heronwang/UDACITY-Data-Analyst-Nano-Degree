@@ -1,0 +1,12 @@
+(lp0
+S'poi'
+p1
+aVother
+p2
+aVto_poi_fraction
+p3
+aVexpenses
+p4
+aVbonus
+p5
+a.
