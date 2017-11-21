@@ -3,9 +3,14 @@
 ##Statistics Project: Test Stroop Effect
 In this project, I used descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology. With understanding of the data, I used statistical inference to draw a conclusion based on the results.
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 ##Skills Used   
 
-  SKllis  | Tasks
+ SKllis | Tasks
  --- | ---
 RESEARCH METHODS|Identify several statistical study methods and describe the positives and negatives of each
 VISUALIZING DATA|Create and interpret histograms, bar charts, and frequency plots
