@@ -15,6 +15,15 @@ DATA EXTRACTION | Properly assess the quality of a dataset; Understand how to pa
 DATA IN COMPLEX FORMATS | Understand XML design principles; Parse XML & HTML; Scrape websites for relevant data
 DATA QUALITY | Understand common sources for dirty data; Measure the quality of a dataset & apply a blueprint for cleaning; Properly audit validity, accuracy, completeness, consistency;Understand common sources for dirty data
 and uniformity of a dataset
-ANALYZING DATA|Identify common examples of the aggregation framework; Use aggregation pipeline operators $match, $project, $unwind,$group
 SQL FOR DATA ANALYSIS | Understand how data is structured in SQL;Run queries to summarize data;Use joins to combine information across tables;Create tables and import data from csv
 CASE STUDY: OPENSTREETMAP DATA|Use iterative parsing for large datafiles; Understand XML elements in OpenStreetMap
+
+## Softwares and Libraries
+- python 2.7
+- RE
+- XML
+- SQL
+- numpy
+- pandas
+- OverPass API.
+
