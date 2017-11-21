@@ -1,11 +1,6 @@
 ## Statistics Project: Test Stroop Effect
 In this project, I used descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology. With understanding of the data, I used statistical inference to draw a conclusion based on the results.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
 ## Skills Used   
 
  SKllis | Tasks
@@ -21,3 +16,7 @@ ESTIMATION|Estimate population parameters from sample statistics using confidenc
 HYPOTHESIS TESTING|Use critical values to make decisions on whether or not a treatment has changed the value of a population parameter
 HYPOTHESIS TESTING|Use critical values to make decisions on whether or not a treatment has changed the value of a population parameter
 T-TESTS|Test the effect of a treatment or compare the difference in means for two groups when we have small sample sizes
+
+## References
+An [online histogram maker](http://www.socscistatistics.com/descriptive/polygon/Default.aspx) for visualizationI 
+An [online histogram maker](http://www.shodor.org/interactivate/activities/Histogram/) for viusalization II
