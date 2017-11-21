@@ -6,7 +6,9 @@ Data munging skills are some of the most important for career of data engineers,
 - Parse and gather data from popular file formats such as .csv, .json, .xml, and .html
 - Process data from multiple files or very large files that can be cleaned programmatically.
 - Store, query, and aggregate data using SQL.
+
 More Specificly, they are:
+
 Skills | Tasks
 --- | ---
 DATA EXTRACTION | Properly assess the quality of a dataset; Understand how to parse CSV files and XLS with XLRD ➔ Use JSON and Web APIs
