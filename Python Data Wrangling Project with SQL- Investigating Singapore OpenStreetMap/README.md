@@ -12,12 +12,12 @@ More Specificly, they are:
 
 Skills | Tasks
 --- | ---
-DATA EXTRACTION | Properly assess the quality of a dataset; Understand how to parse CSV files and XLS with XLRD ➔ Use JSON and Web APIs
-DATA IN COMPLEX FORMATS | Understand XML design principles; Parse XML & HTML; Scrape websites for relevant data
-DATA QUALITY | Understand common sources for dirty data; Measure the quality of a dataset & apply a blueprint for cleaning; Properly audit validity, accuracy, completeness, consistency;Understand common sources for dirty data
+DATA EXTRACTION | Assess the quality of a dataset and parse CSV files and XLS with XLRD; Use JSON and Web APIs
+DATA IN COMPLEX FORMATS |  Parse XML & HTML under the guide of XML design principles;Scrape websites for relevant data
+DATA QUALITY | Identify common sources for dirty data; Measure the quality of a dataset & apply a blueprint for cleaning; Audit validity, accuracy, completeness, consistency;Understand common sources for dirty data
 and uniformity of a dataset
-SQL FOR DATA ANALYSIS | Understand how data is structured in SQL;Run queries to summarize data;Use joins to combine information across tables;Create tables and import data from csv
-CASE STUDY: OPENSTREETMAP DATA|Use iterative parsing for large datafiles; Understand XML elements in OpenStreetMap
+SQL FOR DATA ANALYSIS | Run queries to summarize data by SQL;Use joins to combine information across tables;Handle external data
+CASE STUDY: OPENSTREETMAP DATA|Iteratively parse large datafiles taking advantage of the structure of XML elements in OpenStreetMap
 
 ## Softwares and Libraries
 - python 2.7
