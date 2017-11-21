@@ -1,7 +1,7 @@
 ## Python Data Wrangling Project with SQL- Investigating Singapore OpenStreetMap
 Data munging skills are some of the most important for career of data engineers, as data engineers always need to wrangle data before using them for any analysis. For this project, I choosed `Singapore` map from https://www.openstreetmap.org as the case of study, as I am very interested to see the unseen part of the little red doton pacific ocean that I am both familiar with and alien to, by the data mining skills I have learned. This is quite a time-consuming and exhausting project, but I learned a lot useful handy data munging techniques from it, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data. Finally, I used SQL as the data schema to wrap up the data investigation part.  
 
-If you are interested in it, please check **`P3_OSM_case_study.pdf`** for detailed documentation! 
+If you are interested in it, please check **`P3_OSM_case_study.pdf`** for better format of documentation! 
 
 ## Skills Used
 - Parse and gather data from popular file formats such as .csv, .json, .xml, and .html
@@ -29,7 +29,7 @@ CASE STUDY: OPENSTREETMAP DATA|Iteratively parse large datafiles taking advantag
 - OverPass API.
 
 
-**1. Map Area**
+## 1. Map Area
 
 For this case study, I picked Sinagapore. First of all I live here for 2
 years so I think of it immediately. Besides, even it is a tiny city
@@ -57,7 +57,7 @@ NS（1.3094,1.2889）,EW(103.7702,103.7849)
 
 <https://www.openstreetmap.org/exPort#map=15/1.2991/103.7775&layers=HN>
 
-**2.Problems Encoutered**
+## 2.Problems Encoutered
 
 First of all, to ease auditing and correcting, I converted raw sample
 data into csv format using quiz file ***data.py***, during which I
@@ -141,7 +141,7 @@ street names:
 
 -   Inconsistent title case
 
-**2.1 Progress Report**
+### 2.1 Progress Report
 
 My laptop is very slow in executing data.py even aginst the sample
 dataset. To moniter the processing progress and secure control of work,
@@ -149,7 +149,7 @@ I add a progress report functionality to data.py before running it
 against the whole 200 MB singapore map set, which takes me actually
 hours to finish.
 
-**2.2 Inconsistent City Names**
+### 2.2 Inconsistent City Names
 
 Though the dataset I downloaded from metro-extracts names ‘singapore’,
 as we can see it actually is a rectanglar area which unavoidly involves
@@ -159,7 +159,7 @@ and so on. Therefore it’s more accurate to address this case study as
 this, inconsistent city names are actually not problems. So just leave
 it as it is.
 
-**2.3 Invalid Postcodes**
+### 2.3 Invalid Postcodes**
 
 Valid Singapore postal code should be 6 digits ,with 2~3 digits for
 sector code and 3~4 digits for delivery point. I list these invalid
@@ -241,7 +241,7 @@ Singapore used to use 4-digit post system. Nowadays they are used to
 refer to locations of properties for sale or rent. Therefore they are
 valid postcode in that sense.
 
-**2.3 Abbreviations in Street Names**
+### 2.4 Abbreviations in Street Names
 
 After run the provided audit.py, I found abbreviations used in street
 names such as:
@@ -258,7 +258,7 @@ Therefore I modified the ***mapping*** dictionary and wrote a
 ***mapping\_update()*** function for ***class street*** to replace
 abbrevation with standard forms.
 
-**2.4 Inappropriate postfix**
+### 2.5 Inappropriate postfix
 
 Such as: ‘’ Taman Mediterania Tahap II Batam Center.’’,‘’Zhong Shan
 Park,’’, ”Taman Impian Emas,”…
@@ -266,7 +266,7 @@ Park,’’, ”Taman Impian Emas,”…
 To deal with this, I wrote function ***strip()*** for in
 ***class\_street.py*.**
 
-**2.5 Mixing House Numbers**
+### 2.6 Mixing House Numbers**
 
 *{...*
 
@@ -301,15 +301,15 @@ part. To store the newly generated house number data I create a new
 DataFrame housenumber with the same “id” as the attr it comes from, and
 with “key”=”housenumber”, and “type”=”addr”
 
-**2.6 Inconsistent Title case**
+### 2.7 Inconsistent Title case**
 
 To make street name more consistent, I simply add the standardizing
 function title() in strip() block, to turn strings such as “blk 168
 bedok south ave 3” into title case “'Blk 168 Bedok South Ave 3'”
 
-**3 Data Overview**
+## 3. Data Overview
 
-***3.1 File Size***
+### 3.1 File Size
 
 singapore.osm ---- 237MB
 
@@ -325,7 +325,7 @@ ways\_nodes.csv 31.5MB
 
 ways\_tags.csv 14.7MB
 
-**4. Additional Ideas**
+## 4. Additional Ideas
 
 To make full advantage of the dataset, I combine “nodes\_tags” and
 “ways\_tags” into one “tags” table:
@@ -343,7 +343,7 @@ text);***
 
 (The queries below are all done against “tags” table. )
 
-**4.1 Economy, Religion, and Culture**
+### 4.1 Economy, Religion, and Culture
 
 It’s very interesting to see how packed and efficient the “little red
 dot” (its nick name) is in land using: with only 700 km2 the island is
@@ -361,7 +361,7 @@ Singaporeans are very busy and used to dine out. Here you can easily
 find food from every corner of the world, especially the best Asian
 cuisine: Chinese, Japanese, Korean, Indian, Malay...
 
-**4.1.1 Top 10 Appearing Amenities**
+#### 4.1.1 Top 10 Appearing Amenities
 
 ***sqlite&gt; select value,count(\*) from tags where key='amenity' group
 by value order by count(\*) desc limit 10;***
@@ -386,7 +386,7 @@ by value order by count(\*) desc limit 10;***
 
 *toilets|220*
 
-**4.1.2 Top 5 Dominating Religions**
+#### 4.1.2 Top 5 Dominating Religions
 
 ***sqlite&gt; select value, count(\*) from tags where key="religion"
 group by value order by count(\*) desc limit 5;***
@@ -401,7 +401,7 @@ group by value order by count(\*) desc limit 5;***
 
 *taoist|10*
 
-**4.1.3 Top 10 Popular Cuisines**
+#### 4.1.3 Top 10 Popular Cuisines**
 
 ***sqlite&gt; select value, count(\*) from tags where key="cuisine"
 group by value order by count(\*) desc limit 10;***
@@ -424,7 +424,7 @@ group by value order by count(\*) desc limit 10;***
 
 *asian|35*
 
-**4.2 Editors, Contributors, Sources**
+### 4.2 Editors, Contributors, Sources
 
 98% of edits are done with JOSM, the an extensible editor for
 ​OpenStreetMap (OSM) ,Java 8;
@@ -461,7 +461,7 @@ fit trackers annully to people. Since it is integrated with a
 multifunctional app for tracking and recording data from users it
 actually makes sense to link it with the entry.
 
-**4.2.1 Top 10 Sources**
+#### 4.2.1 Top 10 Sources
 
 ***sqlite&gt; Select count(\*) from tags where key="source";***
 
@@ -493,7 +493,7 @@ US NGA Pub. 112. 2009-11-12.|107|0.254743708782706
 
 <img src="media/image3.png" width="151" height="152" />
 
-**4.2.2 Top Editors**
+### 4.2.2 Top Editors
 
 ***sqlite&gt; select count(\*) from tags where key="created\_by" ;***
 
@@ -511,7 +511,7 @@ Potlatch 0.10f|124|1.73039352497907
 
 Potlatch 0.7a|6|0.0837287189506001
 
-**4.2.3 Top 10 Contributors and Respective Contribution **
+### 4.2.3 Top 10 Contributors and Respective Contribution
 
 ***sqlite&gt; select user,count(\*),(count(\*)/(1048575/100.0)) from
 nodes group by user order by count(\*) desc limit 10;***
@@ -536,7 +536,7 @@ nodes group by user order by count(\*) desc limit 10;***
 
 *singastreet|18080|1.72424480843049*
 
-**5. Areas for Improvement**
+## 5. Areas for Improvement
 
 Overall, OpenStreetMap is an awesome platform for collaborative mapping,
 I especailly love the part that everyone could be the editor and its
