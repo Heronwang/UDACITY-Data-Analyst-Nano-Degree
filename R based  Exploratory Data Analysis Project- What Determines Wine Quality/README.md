@@ -3,7 +3,7 @@ Exploratory Data Analysis (EDA) is the numerical and graphical examination of da
 
 Data, by itself, is "ubiquitous and cheap," says Google's Chief Economist and UC Berkeley professor Hal Varian. Therefore, as a data analyst, our true tasks are turning it into insights. In this project, I learned skills to frame and present data using R and apply exploratory data analysis techniques to explore relationships in one variable to multiple variables and to explore a selected data set for distributions, outliers, and anomalies, and in the end, provided solid insights about what factors in the end determines wine quality and what factors doesn't actually matter.   
 
-If you are interested in it, please check **`P4_White_Wines_Quality_Exploration.rmd` and `html`** for code and detailed documentation!
+If you are interested in it, please check **`P4_White_Wines_Quality_Exploration.rmd` and `html`** for code and analysis!
 
 ## Skills Used
 - Check for anomalies and outliers from the distribution of a variable
