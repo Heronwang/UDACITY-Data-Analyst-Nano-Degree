@@ -1,3 +1,3 @@
 # Data-Engineer
 
-<img src="dand-certificate.pdf" width="601" height="121" />
+<img src="dand-certificate.png" width="600" height="400" />
