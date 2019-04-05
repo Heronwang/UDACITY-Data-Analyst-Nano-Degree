@@ -1,5 +1,7 @@
 # Data-Engineer
+
 Estimated length of program: 260 hrs (Udacity Offical)   
+
 Average Complete Time: 13 months (Udacity Official) 
 
 Actual Complete Time: 5 weeks   
